@@ -11,13 +11,13 @@ class parent{
 
 class child : public parent{
     private:
-        string code;
+        string cod;
         void print(){
-            std::cout<<"code is "<<code;
+            std::cout<<"code is  " << cod;
         }
     public:
         child(string c){
-            code = c;
+            cod = c;
         }
 };
 int main() {
