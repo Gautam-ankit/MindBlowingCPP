@@ -13,7 +13,7 @@ class child : public parent{
     private:
         string code;
         void print(){
-            cout<<"code is "<<code;
+            std::cout<<"code is "<<code;
         }
     public:
         child(string c){
